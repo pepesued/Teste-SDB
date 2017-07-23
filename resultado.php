@@ -1,7 +1,7 @@
 <center>
 <?php
 // declaração das variáveis que irão receber a quantidade de cada resultado
-$zeus = $poseidon = $demeter = $ares = $atena = $apolo = $hefesto = $afrodite = $dionisio = $hermes=0;
+$zeus = $poseidon = $demeter = $ares = $atena = $apolo = $hefesto = $afrodite = $hermes= $dionisio=$hades=0;
 
 // Recebe os valores do formulário e os passa a variáveis
 $result1 = $_POST["questao1"];
@@ -21,7 +21,7 @@ $result11 = $_POST["questao11"] ;
 function questao1($result1){
 	/* escopo das variáveis criava os erros anteriores
 	declará-las com a palavra reservada "global" resolve o problema*/
-	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $dionisio, $hermes,$hades;
+	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $hermes, $dionisio, $hades;
 	switch($result1){
 		case "A":
 			$atena++;
@@ -65,7 +65,7 @@ function questao1($result1){
 
 
 function questao2($result2){
-	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $dionisio, $hermes;
+	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $hermes, $dionisio, $hades;
 	switch($result2){
 		case "A":
 			$afrodite++;
@@ -108,7 +108,7 @@ function questao2($result2){
 }
 
 function questao3($result3){
-	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $dionisio, $hermes;
+	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $hermes, $dionisio, $hades;
 	switch($result3){
 		case "A":
 			$zeus++;
@@ -151,7 +151,7 @@ function questao3($result3){
 }
 
 function questao4($result4){
-	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $dionisio, $hermes;
+	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $hermes, $dionisio, $hades;
 	switch($result4){
 		case "A":
 			$hefesto++;
@@ -195,7 +195,7 @@ function questao4($result4){
 
 
 function questao5($result5){
-	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $dionisio, $hermes, $hades;
+	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $hermes, $dionisio, $hades;
 	switch($result5){
 		case "A":
 			$hades++;
@@ -238,7 +238,7 @@ function questao5($result5){
 }
 
 function questao6($result6){
-	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $dionisio, $hermes;
+	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $hermes, $dionisio, $hades;
 	switch($result6){
 		case "A":
 			$poseidon++;
@@ -281,7 +281,7 @@ function questao6($result6){
 }
 
 function questao7($result7){
-	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $dionisio, $hermes;
+	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $hermes, $dionisio, $hades;
 	switch($result7){
 		case "A":
 			$demeter++;
@@ -324,7 +324,7 @@ function questao7($result7){
 }
 
 function questao8($result8){
-	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $dionisio, $hermes, $hades;
+	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $hermes, $dionisio, $hades;
 	switch($result8){
 		case "A":
 			$dionisio++;
@@ -367,7 +367,7 @@ function questao8($result8){
 }
 
 function questao9($result9){
-	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $dionisio, $hermes;
+	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $hermes, $dionisio, $hades;
 	switch($result9){
 		case "A":
 			$apolo++;
@@ -410,7 +410,7 @@ function questao9($result9){
 }
 
 function questao10($result10){
-	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $dionisio, $hermes;
+	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $hermes, $dionisio, $hades;
 	switch($result10){
 		case "A":
 			$ares++;
@@ -453,7 +453,7 @@ function questao10($result10){
 }
 
 function questao11($result11){
-	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $dionisio, $hermes;
+	global $zeus,$poseidon, $demeter, $ares, $atena, $apolo, $hefesto, $afrodite, $hermes, $dionisio, $hades;
 	switch($result11){
 		case "A":
 			$hermes++;
